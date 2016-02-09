@@ -7,13 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41E24BBE1C69C95C00B4380C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E24BBD1C69C95C00B4380C /* AppDelegate.swift */; };
-		41E24BC01C69C95C00B4380C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E24BBF1C69C95C00B4380C /* ViewController.swift */; };
-		41E24BC31C69C95C00B4380C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E24BC11C69C95C00B4380C /* Main.storyboard */; };
-		41E24BC51C69C95C00B4380C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E24BC41C69C95C00B4380C /* Assets.xcassets */; };
-		41E24BC81C69C95C00B4380C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E24BC61C69C95C00B4380C /* LaunchScreen.storyboard */; };
-		41E24BD31C69C95C00B4380C /* memoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E24BD21C69C95C00B4380C /* memoriaTests.swift */; };
-		41E24BDE1C69C95C00B4380C /* memoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E24BDD1C69C95C00B4380C /* memoriaUITests.swift */; };
+		41E24BBE1C69C95C00B4380C /* juegoDeMemoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E24BBD1C69C95C00B4380C /* juegoDeMemoria.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		41E24BBA1C69C95C00B4380C /* memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		41E24BBD1C69C95C00B4380C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41E24BBF1C69C95C00B4380C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41E24BC21C69C95C00B4380C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		41E24BC41C69C95C00B4380C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		41E24BC71C69C95C00B4380C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		41E24BC91C69C95C00B4380C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41E24BCE1C69C95C00B4380C /* memoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		41E24BD21C69C95C00B4380C /* memoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriaTests.swift; sourceTree = "<group>"; };
-		41E24BD41C69C95C00B4380C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41E24BD91C69C95C00B4380C /* memoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		41E24BDD1C69C95C00B4380C /* memoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriaUITests.swift; sourceTree = "<group>"; };
-		41E24BDF1C69C95C00B4380C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E24BBA1C69C95C00B4380C /* memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = memoria.app; path = "/Users/Andres/Desktop/memoria/build/Debug-iphoneos/memoria.app"; sourceTree = "<absolute>"; };
+		41E24BBD1C69C95C00B4380C /* juegoDeMemoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = juegoDeMemoria.swift; path = memoria/juegoDeMemoria.swift; sourceTree = "<group>"; };
+		41E24BCE1C69C95C00B4380C /* memoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = memoriaTests.xctest; path = "/Users/Andres/Desktop/memoria/build/Debug-iphoneos/memoriaTests.xctest"; sourceTree = "<absolute>"; };
+		41E24BD91C69C95C00B4380C /* memoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = memoriaUITests.xctest; path = "/Users/Andres/Desktop/memoria/build/Debug-iphoneos/memoriaUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,52 +62,8 @@
 		41E24BB11C69C95C00B4380C = {
 			isa = PBXGroup;
 			children = (
-				41E24BBC1C69C95C00B4380C /* memoria */,
-				41E24BD11C69C95C00B4380C /* memoriaTests */,
-				41E24BDC1C69C95C00B4380C /* memoriaUITests */,
-				41E24BBB1C69C95C00B4380C /* Products */,
+				41E24BBD1C69C95C00B4380C /* juegoDeMemoria.swift */,
 			);
-			sourceTree = "<group>";
-		};
-		41E24BBB1C69C95C00B4380C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41E24BBA1C69C95C00B4380C /* memoria.app */,
-				41E24BCE1C69C95C00B4380C /* memoriaTests.xctest */,
-				41E24BD91C69C95C00B4380C /* memoriaUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		41E24BBC1C69C95C00B4380C /* memoria */ = {
-			isa = PBXGroup;
-			children = (
-				41E24BBD1C69C95C00B4380C /* AppDelegate.swift */,
-				41E24BBF1C69C95C00B4380C /* ViewController.swift */,
-				41E24BC11C69C95C00B4380C /* Main.storyboard */,
-				41E24BC41C69C95C00B4380C /* Assets.xcassets */,
-				41E24BC61C69C95C00B4380C /* LaunchScreen.storyboard */,
-				41E24BC91C69C95C00B4380C /* Info.plist */,
-			);
-			path = memoria;
-			sourceTree = "<group>";
-		};
-		41E24BD11C69C95C00B4380C /* memoriaTests */ = {
-			isa = PBXGroup;
-			children = (
-				41E24BD21C69C95C00B4380C /* memoriaTests.swift */,
-				41E24BD41C69C95C00B4380C /* Info.plist */,
-			);
-			path = memoriaTests;
-			sourceTree = "<group>";
-		};
-		41E24BDC1C69C95C00B4380C /* memoriaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				41E24BDD1C69C95C00B4380C /* memoriaUITests.swift */,
-				41E24BDF1C69C95C00B4380C /* Info.plist */,
-			);
-			path = memoriaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +153,7 @@
 				Base,
 			);
 			mainGroup = 41E24BB11C69C95C00B4380C;
-			productRefGroup = 41E24BBB1C69C95C00B4380C /* Products */;
+			productRefGroup = 41E24BB11C69C95C00B4380C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -228,9 +169,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E24BC81C69C95C00B4380C /* LaunchScreen.storyboard in Resources */,
-				41E24BC51C69C95C00B4380C /* Assets.xcassets in Resources */,
-				41E24BC31C69C95C00B4380C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E24BC01C69C95C00B4380C /* ViewController.swift in Sources */,
-				41E24BBE1C69C95C00B4380C /* AppDelegate.swift in Sources */,
+				41E24BBE1C69C95C00B4380C /* juegoDeMemoria.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E24BD31C69C95C00B4380C /* memoriaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E24BDE1C69C95C00B4380C /* memoriaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,25 +225,6 @@
 			targetProxy = 41E24BDA1C69C95C00B4380C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		41E24BC11C69C95C00B4380C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41E24BC21C69C95C00B4380C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		41E24BC61C69C95C00B4380C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41E24BC71C69C95C00B4380C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		41E24BE01C69C95C00B4380C /* Debug */ = {
